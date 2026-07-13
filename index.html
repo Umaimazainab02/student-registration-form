@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link href="src/output.css" rel="stylesheet">
     <link rel="stylesheet" href="first.css">
+    <title>Student Registration Form</title>
 </head>
 
-<body class="flex justify-center bg-amber-200">
-    <div class="border-4 border-amber-400 bg-amber-50  w-100 h-110 mt-30 rounded-b-xl">
-        <h1 class="bg-amber-400 pt-5 pb-4 pl-20 font-bold text-xl">Student Registration Form</h1>
-        <div class="pl-10 pt-6 flex flex-row">
+<body class="flex justify-center  bg-cover bg-center bg-no-repeat min-h-screen">    
+    <div class="  bg-amber-50  w-70 lg:w-100 h-130 lg:h-115 mt-30 rounded-b-xl">
+        <h1 class="bg-cyan-800 pt-5 pb-4 pl-10 lg:pl-20 font-bold text-md lg:text-xl">Student Registration Form</h1>
+        <div class="pl-10 pt-6 flex flex-col lg:flex-row">
             <h1 class="font-bold pt-1 pr-3">Name : </h1>
-            <input type="text" class="border-4 border-amber-400 w-60 h-10 ">
+            <input type="text" placeholder="Name" class="border-4 border-cyan-700 w-50 lg:w-58 h-10 p-2 rounded-3xl">
         </div>
-        <div class="pl-11 pt-6 flex flex-row">
+        <div class="pl-11 pt-6 flex flex-col lg:flex-row">
             <h1 class="font-bold pt-1 pr-3">Email : </h1>
-            <input type="text" class="border-4 border-amber-400 w-60 h-10 ">
+            <input type="text" placeholder="Email" class="border-4 border-cyan-700 w-50 lg:w-58 h-10 p-2 rounded-3xl">
         </div>
-        <div class="pl-4 pt-6 flex flex-row">
+        <div class="pl-11 pt-6 flex flex-col lg:flex-row">
             <h1 class="font-bold pt-1 pr-3">Password : </h1>
-            <input type="text" class="border-4 border-amber-400 w-60 h-10 ">
+            <input type="text" placeholder="Password" class="border-4 border-cyan-700 w-50 lg:w-58 h-10 p-2 rounded-3xl">
         </div>
-        <div class="pl-9 pt-6 flex flex-row">
+        <div class="pl-9 pt-6 flex flex-col lg:flex-row">
             <h1 class="font-bold pt-1 pr-3">Course : </h1>
-            <select id="course " class="border-4 border-amber-400 w-60 h-10 ">
+            <select id="course " class="border-4 border-cyan-700 w-51 lg:w-60 h-10 rounded-3xl">
                 <option>Select a Course</option>
                 <option>Web Development</option>
                 <option>Graphic Design</option>
@@ -35,10 +36,11 @@
                 <option>Cyber Security</option>
             </select>
         </div>
-        <div class="mt-8 ml-27">
-            <button class="border-4 border-amber-400 bg-amber-400 w-40 h-10 rounded-3xl ">Submit form</button>
+        <div class="mt-8 ml-15 lg:ml-27">
+            <button class="border-4 border-cyan-700 bg-cyan-700 w-40 h-10 rounded-3xl ">Submit form</button>
         </div>
     </div>
+    <script src="app.js"></script>
 </body>
 
 </html>
